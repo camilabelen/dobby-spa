@@ -1,0 +1,28 @@
+*{
+  font-family: $body_font;
+}
+
+nav .navbar-default{
+  background-color: $background_menu;
+  li:hover{
+    background-color: $background_menu;
+    a:hover{
+      color: #FFF;
+    }
+  }
+}
+
+
+.seccion_dos{
+  background-color: $background_dos;
+  .imgcircle{
+    @include circulo()
+  }
+  h3{
+    text-align: $text_center;
+  }
+  p{
+    text-align: $text_justify;
+  }
+}
+
